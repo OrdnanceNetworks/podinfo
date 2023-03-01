@@ -102,7 +102,7 @@ jobs:
           file: ./Dockerfile.base
           tags: ghcr.io/ordnancenetworks/podinfo-base:latest
       - name: Publish helm chart
-        uses: ordnancenetworks/helm-gh-pages@master
+        uses: ordnancenetworks/helm-gh-pages@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish config artifact
