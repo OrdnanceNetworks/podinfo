@@ -101,10 +101,10 @@ jobs:
           platforms: linux/amd64
           file: ./Dockerfile.base
           tags: ghcr.io/ordnancenetworks/podinfo-base:latest
-      #- name: Publish helm chart
-      #  uses: stefanprodan/helm-gh-pages@master
-      #  with:
-      #    token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish helm chart
+        uses: stefanprodan/helm-gh-pages@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish config artifact
         run: |
           flux push artifact oci://ghcr.io/ordnancenetworks/podinfo-deploy:${{ steps.prep.outputs.VERSION }} \
