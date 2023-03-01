@@ -1,11 +1,10 @@
 ---
 name: release
+
 on:
   push:
     tags:
       - '*'
-    branches:
-      - 'fsg_podinfo'
 
 permissions:
   contents: write # needed to write releases
