@@ -1,7 +1,7 @@
 package main
 
 import (
-	podinfo "github.com/stefanprodan/podinfo/cue/podinfo"
+	podinfo "github.com/ordnancenetworks/podinfo/cue/podinfo"
 )
 
 app: podinfo.#Application & {
@@ -10,7 +10,7 @@ app: podinfo.#Application & {
 			name:      "podinfo"
 			namespace: "default"
 		}
-		image: tag: "6.3.4"
+		image: tag: "0.0.9"
 		resources: requests: {
 			cpu:    "100m"
 			memory: "16Mi"

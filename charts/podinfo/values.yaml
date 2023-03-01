@@ -7,8 +7,8 @@ backend: #http://backend-podinfo:9898/echo
 backends: []
 
 image:
-  repository: ghcr.io/stefanprodan/podinfo
-  tag: 6.3.4
+  repository: ghcr.io/ordnancenetworks/podinfo
+  tag: 0.0.9
   pullPolicy: IfNotPresent
 
 ui:
