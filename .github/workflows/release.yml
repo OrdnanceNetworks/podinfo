@@ -102,7 +102,7 @@ jobs:
           file: ./Dockerfile.base
           tags: ghcr.io/ordnancenetworks/podinfo-base:latest
       - name: Publish helm chart
-        uses: stefanprodan/helm-gh-pages@master
+        uses: ordnancenetworks/helm-gh-pages@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish config artifact
@@ -124,7 +124,7 @@ jobs:
       - name: Generate release notes
         run: |
           echo 'CHANGELOG' > /tmp/release.txt
-          github-release-notes -org stefanprodan -repo podinfo -since-latest-release >> /tmp/release.txt
+          github-release-notes -org ordnancenetworks -repo podinfo -since-latest-release >> /tmp/release.txt
       - name: Publish release
         uses: goreleaser/goreleaser-action@v3
         with:
