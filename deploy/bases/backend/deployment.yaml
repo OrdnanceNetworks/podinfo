@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/ordnancenetworks/podinfo:0.0.0b
+        image: ghcr.io/ordnancenetworks/podinfo:0.0.0c
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
