@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   podinfo:
   - apiVersion: v1
+    appVersion: 0.0.10
+    created: "2023-03-01T07:35:58.648943598Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 105ea64429abe22210c655e27b34a59ef068e25273e3195cb0d47865e76a9bca
+    home: https://github.com/ordnancenetworks/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: djh00t@users.noreply.github.com
+      name: djh00t
+    name: podinfo
+    sources:
+    - https://github.com/ordnancenetworks/podinfo
+    urls:
+    - https://OrdnanceNetworks.github.io/podinfo/podinfo-0.0.10.tgz
+    version: 0.0.10
+  - apiVersion: v1
     appVersion: 0.0.9
     created: "2023-03-01T06:40:14.905099467Z"
     description: Podinfo Helm chart for Kubernetes
@@ -33,4 +49,4 @@ entries:
     urls:
     - https://OrdnanceNetworks.github.io/podinfo/podinfo-0.0.8.tgz
     version: 0.0.8
-generated: "2023-03-01T06:40:14.903251959Z"
+generated: "2023-03-01T07:35:58.646326165Z"
