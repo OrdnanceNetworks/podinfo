@@ -23,7 +23,11 @@ spec:
     spec:
       containers:
       - name: frontend
+<<<<<<< HEAD
         image: ghcr.io/ordnancenetworks/podinfo:0.0.9
+=======
+        image: ghcr.io/stefanprodan/podinfo:0.0.10
+>>>>>>> 831ecd4 (v0.0.10 release)
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
