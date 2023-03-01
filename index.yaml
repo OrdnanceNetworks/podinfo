@@ -1179,4 +1179,20 @@ entries:
     urls:
     - https://stefanprodan.github.io/podinfo/podinfo-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-21T08:55:20.470712723Z"
+  - apiVersion: v1
+    appVersion: 0.0.8
+    created: "2023-03-01T06:05:01.850443612Z"
+    description: Podinfo Helm chart for Kubernetes
+    digest: f1a814d4182ec216db3ef362ff1fc271ce16b9c3a88103cac718457299607dcf
+    home: https://github.com/ordnancenetworks/podinfo
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: djh00t@users.noreply.github.com
+      name: djh00t
+    name: podinfo
+    sources:
+    - https://github.com/ordnancenetworks/podinfo
+    urls:
+    - https://OrdnanceNetworks.github.io/podinfo/podinfo-0.0.8.tgz
+    version: 0.0.8
+generated: "2023-03-01T06:05:01.849133799Z"
